@@ -1,0 +1,394 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "director": {
+          "name": "Christopher Nolan",
+          "birthYear": 1970,
+          "nationality": "British-American"
+        },
+        "releaseYear": 2010,
+        "durationMinutes": 148,
+        "description": "A skilled thief, the absolute best in the dangerous art of extraction, steals secrets from deep within the subconscious during the dream state.",
+        "genres": ["Science Fiction", "Action", "Thriller"],
+        "cast": [
+          {
+            "name": "Leonardo DiCaprio",
+            "role": "Dominic Cobb",
+            "isLead": true
+          },
+          {
+            "name": "Joseph Gordon-Levitt",
+            "role": "Arthur",
+            "isLead": false
+          }
+        ],
+        "rating": 8.8,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "A masterpiece of modern cinema.",
+            "rating": 9.5
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "Mind-bending and visually stunning.",
+            "rating": 9.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Matrix",
+        "director": {
+          "name": "Lana Wachowski, Lilly Wachowski",
+          "birthYear": null,
+          "nationality": "American"
+        },
+        "releaseYear": 1999,
+        "durationMinutes": 136,
+        "description": "A hacker discovers the reality he lives in is a simulated reality controlled by sentient machines.",
+        "genres": ["Science Fiction", "Action"],
+        "cast": [
+          {
+            "name": "Keanu Reeves",
+            "role": "Neo",
+            "isLead": true
+          },
+          {
+            "name": "Laurence Fishburne",
+            "role": "Morpheus",
+            "isLead": false
+          }
+        ],
+        "rating": 8.7,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "Alice Johnson",
+            "comment": "A groundbreaking sci-fi film.",
+            "rating": 9.0
+          },
+          {
+            "reviewer": "Bob Brown",
+            "comment": "Revolutionized action and storytelling.",
+            "rating": 8.8
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Interstellar",
+        "director": {
+          "name": "Christopher Nolan",
+          "birthYear": 1970,
+          "nationality": "British-American"
+        },
+        "releaseYear": 2014,
+        "durationMinutes": 169,
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "genres": ["Science Fiction", "Drama"],
+        "cast": [
+          {
+            "name": "Matthew McConaughey",
+            "role": "Joseph Cooper",
+            "isLead": true
+          },
+          {
+            "name": "Anne Hathaway",
+            "role": "Dr. Amelia Brand",
+            "isLead": false
+          }
+        ],
+        "rating": 8.6,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "Visually stunning and emotionally powerful.",
+            "rating": 9.0
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "A mind-bending exploration of time and space.",
+            "rating": 8.7
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "The Wolf of Wall Street",
+        "director": {
+          "name": "Martin Scorsese",
+          "birthYear": 1942,
+          "nationality": "American"
+        },
+        "releaseYear": 2013,
+        "durationMinutes": 180,
+        "description": "The story of Jordan Belfort, from his rise as a wealthy stockbroker to his fall involving crime, corruption, and the federal government.",
+        "genres": ["Biography", "Comedy", "Crime"],
+        "cast": [
+          {
+            "name": "Leonardo DiCaprio",
+            "role": "Jordan Belfort",
+            "isLead": true
+          },
+          {
+            "name": "Jonah Hill",
+            "role": "Donnie Azoff",
+            "isLead": false
+          }
+        ],
+        "rating": 8.2,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "Alice Johnson",
+            "comment": "A chaotic, hilarious ride with a brilliant performance from DiCaprio.",
+            "rating": 8.8
+          },
+          {
+            "reviewer": "Bob Brown",
+            "comment": "Scorsese at his best, with a gripping story.",
+            "rating": 8.5
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "A Few Good Men",
+        "director": {
+          "name": "Rob Reiner",
+          "birthYear": 1947,
+          "nationality": "American"
+        },
+        "releaseYear": 1992,
+        "durationMinutes": 138,
+        "description": "Military lawyer Lieutenant Daniel Kaffee defends Marines accused of murder. They contend they were acting under orders.",
+        "genres": ["Drama", "Thriller"],
+        "cast": [
+          {
+            "name": "Tom Cruise",
+            "role": "Lieutenant Daniel Kaffee",
+            "isLead": true
+          },
+          {
+            "name": "Jack Nicholson",
+            "role": "Colonel Jessup",
+            "isLead": false
+          }
+        ],
+        "rating": 8.2,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "A gripping courtroom drama with an iconic performance from Nicholson.",
+            "rating": 9.0
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "Intense and thought-provoking.",
+            "rating": 8.5
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "The Dark Knight",
+        "director": {
+          "name": "Christopher Nolan",
+          "birthYear": 1970,
+          "nationality": "British-American"
+        },
+        "releaseYear": 2008,
+        "durationMinutes": 152,
+        "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "genres": ["Action", "Crime", "Drama"],
+        "cast": [
+          {
+            "name": "Christian Bale",
+            "role": "Bruce Wayne / Batman",
+            "isLead": true
+          },
+          {
+            "name": "Heath Ledger",
+            "role": "The Joker",
+            "isLead": false
+          }
+        ],
+        "rating": 9.0,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "Alice Johnson",
+            "comment": "An unforgettable performance by Ledger and an amazing action movie.",
+            "rating": 9.5
+          },
+          {
+            "reviewer": "Bob Brown",
+            "comment": "One of the best superhero films ever made.",
+            "rating": 9.0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Fight Club",
+        "director": {
+          "name": "David Fincher",
+          "birthYear": 1962,
+          "nationality": "American"
+        },
+        "releaseYear": 1999,
+        "durationMinutes": 139,
+        "description": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much more.",
+        "genres": ["Drama", "Thriller"],
+        "cast": [
+          {
+            "name": "Brad Pitt",
+            "role": "Tyler Durden",
+            "isLead": true
+          },
+          {
+            "name": "Edward Norton",
+            "role": "The Narrator",
+            "isLead": false
+          }
+        ],
+        "rating": 8.8,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "A dark and thought-provoking movie that explores consumerism and identity.",
+            "rating": 9.2
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "One of the best performances by Pitt.",
+            "rating": 9.0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "The Godfather",
+        "director": {
+          "name": "Francis Ford Coppola",
+          "birthYear": 1939,
+          "nationality": "American"
+        },
+        "releaseYear": 1972,
+        "durationMinutes": 175,
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "genres": ["Crime", "Drama"],
+        "cast": [
+          {
+            "name": "Marlon Brando",
+            "role": "Vito Corleone",
+            "isLead": true
+          },
+          {
+            "name": "Al Pacino",
+            "role": "Michael Corleone",
+            "isLead": false
+          }
+        ],
+        "rating": 9.2,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "A timeless classic with powerful performances.",
+            "rating": 9.5
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "A masterpiece in cinema history.",
+            "rating": 9.0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Pulp Fiction",
+        "director": {
+          "name": "Quentin Tarantino",
+          "birthYear": 1963,
+          "nationality": "American"
+        },
+        "releaseYear": 1994,
+        "durationMinutes": 154,
+        "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "genres": ["Crime", "Drama"],
+        "cast": [
+          {
+            "name": "John Travolta",
+            "role": "Vincent Vega",
+            "isLead": true
+          },
+          {
+            "name": "Uma Thurman",
+            "role": "Mia Wallace",
+            "isLead": false
+          }
+        ],
+        "rating": 8.9,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "Alice Johnson",
+            "comment": "A masterpiece in storytelling and dialogue.",
+            "rating": 9.3
+          },
+          {
+            "reviewer": "Bob Brown",
+            "comment": "Tarantino's best work to date.",
+            "rating": 9.0
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Forrest Gump",
+        "director": {
+          "name": "Robert Zemeckis",
+          "birthYear": 1952,
+          "nationality": "American"
+        },
+        "releaseYear": 1994,
+        "durationMinutes": 142,
+        "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life story.",
+        "genres": ["Drama", "Romance"],
+        "cast": [
+          {
+            "name": "Tom Hanks",
+            "role": "Forrest Gump",
+            "isLead": true
+          },
+          {
+            "name": "Robin Wright",
+            "role": "Jenny Curran",
+            "isLead": false
+          }
+        ],
+        "rating": 8.8,
+        "isRecommended": true,
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "comment": "A heartwarming and emotional journey through American history.",
+            "rating": 9.2
+          },
+          {
+            "reviewer": "Jane Smith",
+            "comment": "A story that will stay with you forever.",
+            "rating": 9.0
+          }
+        ]
+      }
+    ]
+  }

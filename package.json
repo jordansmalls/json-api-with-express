@@ -1,0 +1,18 @@
+{
+  "name": "json-api-with-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "Jordan Smalls - jsmalls.dev",
+  "license": "ISC",
+  "description": "A simple and fast JSON API built with Express.js, providing sample movie data for developers. Easily clone and use this API to quickly serve movie-related JSON data for testing, prototyping, or development purposes. Supports GET and POST requests, filtering, and random movie selection.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
