@@ -98,7 +98,7 @@ Download the full sample JSON data as a file.
 ### Installation:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jordansmalls/sample-json-api.git
+   git clone https://github.com/jordansmalls/json-api-with-express.git
    ```
 2. Navigate to the project directory:
    ```bash
